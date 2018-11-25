@@ -12,6 +12,10 @@
 		F3AD6E4B21AA0DDC003B3288 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3AD6E4921AA0DDC003B3288 /* Main.storyboard */; };
 		F3AD6E4D21AA0DDD003B3288 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3AD6E4C21AA0DDD003B3288 /* Assets.xcassets */; };
 		F3AD6E5021AA0DDD003B3288 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3AD6E4E21AA0DDD003B3288 /* LaunchScreen.storyboard */; };
+		F3AD6E5821AA0E1C003B3288 /* Expandable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AD6E5721AA0E1C003B3288 /* Expandable.swift */; };
+		F3AD6E5A21AA1C7E003B3288 /* ExpandableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AD6E5921AA1C7E003B3288 /* ExpandableCell.swift */; };
+		F3AD6E5C21AA1DE9003B3288 /* ExpandableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AD6E5B21AA1DE9003B3288 /* ExpandableItem.swift */; };
+		F3AD6E5E21AA5A00003B3288 /* UIView+Autolayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AD6E5D21AA5A00003B3288 /* UIView+Autolayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		F3AD6E4C21AA0DDD003B3288 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3AD6E4F21AA0DDD003B3288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3AD6E5121AA0DDD003B3288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3AD6E5721AA0E1C003B3288 /* Expandable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expandable.swift; sourceTree = "<group>"; };
+		F3AD6E5921AA1C7E003B3288 /* ExpandableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableCell.swift; sourceTree = "<group>"; };
+		F3AD6E5B21AA1DE9003B3288 /* ExpandableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableItem.swift; sourceTree = "<group>"; };
+		F3AD6E5D21AA5A00003B3288 /* UIView+Autolayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Autolayout.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				F3AD6E4C21AA0DDD003B3288 /* Assets.xcassets */,
 				F3AD6E4E21AA0DDD003B3288 /* LaunchScreen.storyboard */,
 				F3AD6E5121AA0DDD003B3288 /* Info.plist */,
+				F3AD6E5721AA0E1C003B3288 /* Expandable.swift */,
+				F3AD6E5921AA1C7E003B3288 /* ExpandableCell.swift */,
+				F3AD6E5B21AA1DE9003B3288 /* ExpandableItem.swift */,
+				F3AD6E5D21AA5A00003B3288 /* UIView+Autolayout.swift */,
 			);
 			path = MultiLevelTableView;
 			sourceTree = "<group>";
@@ -136,7 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3AD6E4821AA0DDC003B3288 /* ViewController.swift in Sources */,
+				F3AD6E5E21AA5A00003B3288 /* UIView+Autolayout.swift in Sources */,
+				F3AD6E5C21AA1DE9003B3288 /* ExpandableItem.swift in Sources */,
 				F3AD6E4621AA0DDC003B3288 /* AppDelegate.swift in Sources */,
+				F3AD6E5821AA0E1C003B3288 /* Expandable.swift in Sources */,
+				F3AD6E5A21AA1C7E003B3288 /* ExpandableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
